@@ -1,14 +1,60 @@
+/* Page */
 body {
-    background: beige;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f2;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Main heading */
 h1 {
-    color: blue;
+    text-align: center;
+    color: #8B0000;
 }
+
+/* Section heading */
+h2 {
+    color: #444;
+    margin-top: 30px;
+}
+
+/* Menu card */
+.menu-item {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Dish name */
+.menu-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+/* Price */
+.menu-item p {
+    margin-top: 8px;
+    color: #008000;
+    font-weight: bold;
+}
+
+/* Button */
 button {
-    background-color: orange;
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    background-color: #ff6b00;
     color: white;
-    padding: 10px 20px;
     border: none;
     border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #e65c00;
 }
